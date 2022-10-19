@@ -6,7 +6,7 @@
     //Clase inicial
     $clase = "";
     //Si el usuario ha pulsado algún botón
-    if (isset($_GET['numero'])){
+    if (isset($_GET['numero'])/* && $_GET['numero'] >= 1 && $_GET['numero'] <= 5*/){
         //Hay partida
         $partida = true;
         //Recojo el número pulsado por el usuario
@@ -52,6 +52,14 @@
                 <input type="submit" name="numero" value="3">
                 <input type="submit" name="numero" value="4">
                 <input type="submit" name="numero" value="5">
+            </form>
+            <!-- Formulario para el input number -->
+            <form method="get" action="index.php">
+                <div>
+                    <p>O escribe un número del 1 al 5 y pulsa en Enviar</p>
+                    <input type="number" min="1" max="5" step="1" name="numero">
+                    <button type="submit">Enviar</button>
+                </div>
             </form>
         <?php } else { ?>
             <a href="index.php">Pulsa aquí para volver a jugar</a>
