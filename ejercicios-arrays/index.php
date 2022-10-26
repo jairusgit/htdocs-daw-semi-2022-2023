@@ -19,11 +19,6 @@
         }
     }
 
-    /*$array = [];
-    for ($i = 0; $i < 500; $i++){
-        $array[$i] = $i;
-    }*/
-
     //Array para el ejercicio 3 */
     $ejercicio3 = [];
     for ($i = 0; $i <= 100; $i++){
