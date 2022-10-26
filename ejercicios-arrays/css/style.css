@@ -1,0 +1,23 @@
+body{
+    font-family: "Arial", "sans-serif";
+    width: 1000px;
+    margin: 20px auto; /* Me deja un margen automático a izquierda y derecha. Arriba y abajo el margen son 20px */
+    padding: 0 20px;
+    background-color: aliceblue;
+}
+
+th, td{
+    width: 120px;
+}
+
+.left{
+    text-align: left;
+}
+
+.right{
+    text-align: right;
+}
+
+.center{
+    text-align: center;
+}
