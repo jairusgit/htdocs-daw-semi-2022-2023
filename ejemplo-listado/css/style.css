@@ -1,0 +1,23 @@
+body{
+    max-width: 1200px;
+    margin: 1rem auto;
+    font-family: "Arial", "sans-serif";
+}
+
+ul{
+    list-style: none;
+}
+
+ul.titulo{
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+
+li{
+    display: inline-block;
+    width: 150px;
+}
+
+img{
+    width: 100px;
+}
